@@ -103,8 +103,81 @@ html(lang="en")
                 button.size_btn 
                     span.orange 50  
                     span 0
+            .show_more
+                p Показать все
 
+          .filter_price 
+            h3 Цена
+            img(src="../../assets/logos/slider.svg", alt="")
+            .btns 
+                button.size_btn
+                    span.orange(style="color: grey;") от
+                    span 394 020
+                button.size_btn
+                    span.orange(style="color: grey;") до
+                    span 12 942 010
 
+          .filter_brand 
+            .title  
+                h4 Стиль
+            ol.list 
+                li 
+                    input(type="checkbox" checked)
+                    label(for="adidas") Деловой 
+                li 
+                    input(type="checkbox")
+                    label(for="puma") Повседневный 
+                li 
+                    input(type="checkbox")
+                    label(for="nike") Спортивный 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") Кэжуал 
 
+          .filter_brand 
+            .title  
+                h4 Цвет
+            ol.list 
+                li 
+                    input(type="checkbox" checked)
+                    label(for="adidas") Черный 
+                li 
+                    input(type="checkbox")
+                    label(for="puma") Белый 
+                li 
+                    input(type="checkbox")
+                    label(for="nike") Серый 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") Красный 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") Синий 
+                .show_more 
+                    p Показать все
 
+          .filter_brand 
+            .title  
+                h4 Страна
+            ol.list 
+                li 
+                    input(type="checkbox" checked)
+                    label(for="adidas") Китай 
+                li 
+                    input(type="checkbox")
+                    label(for="puma") Россия 
+                li 
+                    input(type="checkbox")
+                    label(for="nike") Казахстан 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") Турция 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") Узбекистан 
+                .show_more 
+                    p Показать все
 
+          .filter_end 
+                button.size_btn 
+                    span Все фильтры

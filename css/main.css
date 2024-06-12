@@ -38,8 +38,6 @@ ul {
 
 .size_btn {
   padding: 1rem;
-  width: 120px;
-  height: 50px;
   background: transparent;
   border: 1px solid rgb(184, 184, 184);
   border-radius: 5px;
@@ -65,11 +63,10 @@ aside img {
 
 .category_filter .filter_container .filter {
   position: absolute;
-  width: 400px;
+  width: 500px;
   height: auto;
   padding: 20px;
   left: 0;
-  border: 1px solid red;
 }
 .category_filter .filter_container .filter .filter_links {
   margin-bottom: 1.5rem;
@@ -134,18 +131,38 @@ aside img {
 .category_filter .filter_container .filter .filter_brand .list li input[type=checkbox] {
   filter: sepia(100%) brightness(100%) hue-rotate(0deg) saturate(70%) contrast(300%);
 }
-.category_filter .filter_container .filter .filter_brand .show_more p {
-  color: orange;
-  cursor: pointer;
-}
-.category_filter .filter_container .filter .filter_brand .show_more p:hover {
-  color: rgb(211, 137, 0);
-}
 .category_filter .filter_container .filter .filter_size {
-  width: 360px;
+  width: auto;
   height: 250px;
+  margin-bottom: 2rem;
 }
 .category_filter .filter_container .filter .filter_size h4 {
   font-family: sans-serif;
   padding-bottom: 1rem;
+}
+.category_filter .filter_container .filter .filter_size .btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.category_filter .filter_container .filter .filter_price {
+  margin-bottom: 2rem;
+}
+.category_filter .filter_container .filter .filter_price h3 {
+  padding-bottom: 1rem;
+  font-family: sans-serif;
+}
+.category_filter .filter_container .filter .filter_price .btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.category_filter .show_more p {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  color: orange;
+  cursor: pointer;
+}
+.category_filter .show_more p:hover {
+  color: rgb(211, 137, 0);
 }

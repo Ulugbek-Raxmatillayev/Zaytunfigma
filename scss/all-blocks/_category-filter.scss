@@ -2,11 +2,10 @@
     .filter_container{
         .filter{
             position: absolute;
-            width: 400px;
+            width: 500px;
             height: auto;
             padding: 20px;
             left: 0;
-            border: 1px solid red;
             .filter_links{
                 margin-bottom: 1.5rem;
                 a{
@@ -77,25 +76,47 @@
                     }
                 }
 
-                .show_more{
-                    p{
-                        color: orange;
-                        cursor: pointer;
-                        &:hover{
-                            color: rgb(211, 137, 0);
-                        }
-                    }
-                }
             }
-
+            
             .filter_size{
-                width: 360px;
+                width: auto;
                 height: 250px;
                 // border: 1px solid orange;
+                margin-bottom: 2rem;
                 h4{
                     font-family: sans-serif;
                     padding-bottom: 1rem;
                 }
+                .btns{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    gap: 20px;
+                }
+            }
+
+            .filter_price{
+                margin-bottom: 2rem;
+                h3{
+                    padding-bottom: 1rem;
+                    font-family: sans-serif;
+                }
+                .btns{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    gap: 20px;
+                    
+                }
+            }
+        }
+    }
+    .show_more{
+        p{
+            font-family: sans-serif;
+            margin-top: 1rem;
+            color: orange;
+            cursor: pointer;
+            &:hover{
+                color: rgb(211, 137, 0);
             }
         }
     }
