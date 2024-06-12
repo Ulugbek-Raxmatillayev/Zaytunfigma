@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -26,40 +30,162 @@ a {
   color: inherit;
 }
 
-ol,
-ul {
+li {
   list-style: none;
 }
 
 .container {
-  margin: 0 50px;
-  padding: 0 20px;
-  position: relative;
+  max-width: 1300px;
+  margin: 0px auto;
 }
 
-.size_btn {
+button {
+  cursor: pointer;
+}
+button .size_btn {
   padding: 1rem;
   background: transparent;
   border: 1px solid rgb(184, 184, 184);
   border-radius: 5px;
   transition: 0.5s all;
 }
-.size_btn:hover {
+button .size_btn:hover {
   border-color: orange;
 }
-.size_btn:focus {
+button .size_btn:focus {
   border-color: orange;
 }
-.size_btn .orange {
+button .size_btn .orange {
   color: orange;
   margin-right: 2rem;
 }
-.size_btn span {
+button .size_btn span {
   color: grey;
 }
 
-aside img {
-  max-width: 1600px;
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+header .logo {
+  color: rgb(255, 174, 0);
+}
+header .til {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+header .til .hr2 {
+  height: 20px;
+  width: 2px;
+  background-color: rgb(171, 171, 171);
+}
+header .search__input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header .search__input .input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .search__input .input input {
+  padding: 10px;
+  border: 2px solid rgb(218, 224, 229);
+  font-size: 1rem;
+  width: 600px;
+  outline: none;
+}
+header .search__input .input button {
+  background-color: rgb(218, 224, 229);
+  color: black;
+  padding: 10px;
+  border: 2px solid rgb(218, 224, 229);
+  font-size: 1rem;
+}
+header .search__input .input button:hover {
+  background: rgb(255, 199, 77);
+}
+header .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+header .buttons .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .buttons .box p {
+  color: rgb(255, 174, 0);
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 702px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px 0px rgba(23, 31, 38, 0.3);
+  position: absolute;
+  margin-top: 60px;
+}
+.btn .box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 2px solid #dcdcdc;
+}
+.btn .box:hover {
+  background: rgba(0, 102, 255, 0.1);
+  cursor: pointer;
+}
+.btn li {
+  padding: 10px 5px;
+  font-weight: 700;
+  border-bottom: 2px solid #dcdcdc;
+}
+.btn li:hover {
+  background: rgba(0, 102, 255, 0.1);
+  cursor: pointer;
+}
+
+aside {
+  background: rgb(255, 244, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+aside button {
+  background: #fff;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+aside button:hover {
+  background-color: #ededed;
+  color: #000;
 }
 
 .category_filter .filter_container .filter {

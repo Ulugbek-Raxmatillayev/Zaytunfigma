@@ -1,75 +1,87 @@
-.category_filter{
-    .filter_container{
-        .filter{
+.category_filter {
+    .filter_container {
+        .filter {
             position: absolute;
             width: 500px;
             height: auto;
             padding: 20px;
             left: 0;
-            .filter_links{
+
+            .filter_links {
                 margin-bottom: 1.5rem;
-                a{
+
+                a {
                     font-family: sans-serif;
                     font-size: 16px;
                     transition: .5s;
                     color: orange;
-                    &:hover{
+
+                    &:hover {
                         text-decoration: 2px underline dotted;
                     }
                 }
             }
 
-            .filter_title{
+            .filter_title {
                 display: flex;
                 align-items: center;
                 gap: 25px;
                 font-family: sans-serif;
-                p{
+
+                p {
                     color: grey;
                 }
+
                 margin-bottom: 2rem;
             }
 
-            .filter_category{
+            .filter_category {
                 font-family: sans-serif;
                 line-height: 35px;
                 margin-bottom: 2rem;
-                h4{
+
+                h4 {
                     font-size: 18px;
                     margin-bottom: 1rem;
                 }
-                h5{
+
+                h5 {
                     font-size: 15px;
                 }
             }
 
-            .filter_odeji{
+            .filter_odeji {
                 font-family: sans-serif;
                 line-height: 35px;
                 margin-bottom: 2rem;
-                h5{
+
+                h5 {
                     font-size: 16px;
                 }
-                li{
+
+                li {
                     color: rgb(184, 184, 184);
                 }
             }
-            
-            .filter_brand{
+
+            .filter_brand {
                 font-family: sans-serif;
                 margin-bottom: 2rem;
-                .title{
+
+                .title {
                     display: flex;
                     gap: 30px;
                     margin-bottom: 1rem;
                 }
-                .orange{
+
+                .orange {
                     color: orange;
                 }
 
-                .list{
+                .list {
                     line-height: 35px;
-                    li{
+
+                    li {
                         input[type="checkbox"] {
                             filter: sepia(100%) brightness(100%) hue-rotate(0deg) saturate(70%) contrast(300%);
                         }
@@ -77,45 +89,51 @@
                 }
 
             }
-            
-            .filter_size{
+
+            .filter_size {
                 width: auto;
                 height: 250px;
                 // border: 1px solid orange;
                 margin-bottom: 2rem;
-                h4{
+
+                h4 {
                     font-family: sans-serif;
                     padding-bottom: 1rem;
                 }
-                .btns{
+
+                .btns {
                     display: grid;
                     grid-template-columns: auto auto auto;
                     gap: 20px;
                 }
             }
 
-            .filter_price{
+            .filter_price {
                 margin-bottom: 2rem;
-                h3{
+
+                h3 {
                     padding-bottom: 1rem;
                     font-family: sans-serif;
                 }
-                .btns{
+
+                .btns {
                     display: grid;
                     grid-template-columns: auto auto auto;
                     gap: 20px;
-                    
+
                 }
             }
         }
     }
-    .show_more{
-        p{
+
+    .show_more {
+        p {
             font-family: sans-serif;
             margin-top: 1rem;
             color: orange;
             cursor: pointer;
-            &:hover{
+
+            &:hover {
                 color: rgb(211, 137, 0);
             }
         }
