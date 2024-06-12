@@ -17,7 +17,8 @@ h6 {
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -78,7 +79,8 @@ aside img {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  text-decoration: 2px underline dotted;
+  -webkit-text-decoration: 2px underline dotted;
+          text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -166,3 +168,7 @@ aside img {
 .category_filter .show_more p:hover {
   color: rgb(211, 137, 0);
 }
+
+body {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
