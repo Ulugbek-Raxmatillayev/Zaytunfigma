@@ -1,0 +1,265 @@
+.product__nav{
+    display: flex;
+    .product__nav__a{
+        display: flex;
+        img{
+            padding-left: 3px;
+        }
+        a{
+            font-family: Graphik LCG, sans-serif;
+            font-size: 12px;
+            color: #FFAE00;
+            text-decoration: none;
+            gap: 10px;
+            padding-left: 3px;
+        }
+        
+    }
+}
+
+.product__samsung{
+    display: flex;
+    font-family: Arial;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+.otzitiv{
+    display: flex;
+    gap: 20px;
+    .otzitiv__24{
+        font-size: 18px;
+        color: #8E969E;
+    }
+
+}
+
+.product__info{
+    display: flex;
+    flex-wrap: wrap;
+    .product__info__grid{
+        display: grid;
+    }
+
+    .product__info__pam{
+        p{
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-family: Graphik LCG, sans-serif;
+        }
+        .product__info__cd{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+    .product__info__cds{
+        background-color: #FFF45F;
+        padding: 10px;
+        border-radius: 5px;
+        color: #000000;
+    }
+    .product__info__cdc{
+        background-color: #F2F5F7;
+        padding: 10px;
+        border-radius: 5px;
+        color: #8E969E;
+    }
+
+    .product__info__flex{
+        display: flex;
+        gap: 80px;
+        .product__info__plat{
+            p{
+                font-size: 14px;
+                color: #8E969E;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+        }
+
+        .product__info__platt{
+            margin-top: 35px;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .product__info__chvet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .product__info__chvet__img{
+            margin-top: 10px;
+            display: flex;
+            gap: 18px;
+        }
+    }
+
+    .product__skidka{
+        border: 1px solid #DAE0E5;  
+        border-radius: 5px;
+        width: 330px;
+        height: 236px;
+        padding: 30px;
+        color: #8E969E;
+        .product__skidka__flex{
+            .product__skidka__foiz{
+                background-color: #F23D5B;
+                color: #F2F5F7;
+                border-radius: 5px;
+                padding: 10px;
+                align-items: center;
+            }
+            .product__skidka__c{
+                color: #8E969E;
+                padding: 10px;
+            }
+            display: flex;
+        }
+    }
+
+    .product__sum{
+        font-size: 24px;
+        margin-top: 15px;
+        color: #000000;
+    }
+    .sum{
+        font-size: 14px;
+        color: #8E969E;
+    }
+
+    .product__korzinka{
+        margin-top: 30px;
+        background-color: #FFAE00;
+        color: #FFFFFF;
+        width: 270px;
+        height: 54px;
+        border: none;
+        border-radius: 9px;
+    }
+
+    .product__dastabki{
+        width: 100%;
+        margin-top: 30px;
+        .product__dastabki__p{
+            font-family: Arial sans-serif;
+            font-size: 20px;
+            color: #000000;
+            
+        }
+        .product__dastabki__card{
+            .product__dastabki__bold{
+                font-size: 15px;
+                color: #000000;
+            }
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            gap: 9px;
+            .product__dastabki__span{
+                color: #FFAE00;
+            }
+        }
+    }
+
+    .product__samsung__brend{
+        display: flex;
+        border: 1px solid #DAE0E5;  
+        border-radius: 5px;
+        width: 300px;
+        .product__samsung__brend__p{
+            text-align: center;
+            .brendu{
+                color: #FFAE00;
+            }
+            p{
+                font-family: Graphik LCG, sans-serif;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.text__area{
+    margin-top: 30px;
+    width: 940px;
+    height: 372px;
+    display: flex;
+    border: 1px solid #E8E9EA;
+    border-radius: 5px;
+    padding: 20px;
+    .text__area__title{
+        padding-bottom: 20px;
+        .text__area__title__obshe{
+            margin-top: 6rem;
+        }
+        .title__more{
+            display: flex;
+        }
+        .text__area__title__h1{
+            padding-top: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;    
+            gap: 5px;
+            .text__area__title__more{
+                font-size: 14px;
+                display: flex;
+                align-items: end;
+            }
+        }
+        button{
+        margin-top: 30px;
+        background-color: #FFAE00;
+        color: #FFFFFF;
+        width: 200px;
+        height: 54px;
+        border: none;
+        border-radius: 9px;
+        }
+    }
+    .product__mini__card{
+        display: flex;
+        // flex-wrap: wrap;
+        padding: 20px;
+        gap: 10px;
+        .product__mini{
+            .product__mini__like{
+                position: relative;
+                top: 20px;
+                display: flex;
+                justify-content: end;
+                align-items: end;
+            }
+            p{
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+            button{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                width: 165px;
+                height: 40px;
+                background-color: #FFF7E6;
+                color: #FFAE00;
+                border: none;
+                border-radius: 5px;
+            }
+            .product__mini__more{
+                display: flex;
+                gap: 5px;
+                font-family: Graphik LCG, Arial, sans-serif;
+                p{
+                    font-size: 16px;
+                }
+                span{
+                    font-size: 14px;
+                    color: #8E969E;
+                }
+            }
+        }
+    }
+}
