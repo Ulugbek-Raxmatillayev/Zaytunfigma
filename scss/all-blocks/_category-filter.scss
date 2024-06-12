@@ -1,0 +1,102 @@
+.category_filter{
+    .filter_container{
+        .filter{
+            position: absolute;
+            width: 400px;
+            height: auto;
+            padding: 20px;
+            left: 0;
+            border: 1px solid red;
+            .filter_links{
+                margin-bottom: 1.5rem;
+                a{
+                    font-family: sans-serif;
+                    font-size: 16px;
+                    transition: .5s;
+                    color: orange;
+                    &:hover{
+                        text-decoration: 2px underline dotted;
+                    }
+                }
+            }
+
+            .filter_title{
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                font-family: sans-serif;
+                p{
+                    color: grey;
+                }
+                margin-bottom: 2rem;
+            }
+
+            .filter_category{
+                font-family: sans-serif;
+                line-height: 35px;
+                margin-bottom: 2rem;
+                h4{
+                    font-size: 18px;
+                    margin-bottom: 1rem;
+                }
+                h5{
+                    font-size: 15px;
+                }
+            }
+
+            .filter_odeji{
+                font-family: sans-serif;
+                line-height: 35px;
+                margin-bottom: 2rem;
+                h5{
+                    font-size: 16px;
+                }
+                li{
+                    color: rgb(184, 184, 184);
+                }
+            }
+            
+            .filter_brand{
+                font-family: sans-serif;
+                margin-bottom: 2rem;
+                .title{
+                    display: flex;
+                    gap: 30px;
+                    margin-bottom: 1rem;
+                }
+                .orange{
+                    color: orange;
+                }
+
+                .list{
+                    line-height: 35px;
+                    li{
+                        input[type="checkbox"] {
+                            filter: sepia(100%) brightness(100%) hue-rotate(0deg) saturate(70%) contrast(300%);
+                        }
+                    }
+                }
+
+                .show_more{
+                    p{
+                        color: orange;
+                        cursor: pointer;
+                        &:hover{
+                            color: rgb(211, 137, 0);
+                        }
+                    }
+                }
+            }
+
+            .filter_size{
+                width: 360px;
+                height: 250px;
+                // border: 1px solid orange;
+                h4{
+                    font-family: sans-serif;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

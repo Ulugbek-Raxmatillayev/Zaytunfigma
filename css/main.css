@@ -6,6 +6,146 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 50px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.size_btn {
+  padding: 1rem;
+  width: 120px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.size_btn:hover {
+  border-color: orange;
+}
+.size_btn:focus {
+  border-color: orange;
+}
+.size_btn .orange {
+  color: orange;
+  margin-right: 2rem;
+}
+.size_btn span {
+  color: grey;
+}
+
 aside img {
   max-width: 1600px;
+}
+
+.category_filter .filter_container .filter {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  left: 0;
+  border: 1px solid red;
+}
+.category_filter .filter_container .filter .filter_links {
+  margin-bottom: 1.5rem;
+}
+.category_filter .filter_container .filter .filter_links a {
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: 0.5s;
+  color: orange;
+}
+.category_filter .filter_container .filter .filter_links a:hover {
+  text-decoration: 2px underline dotted;
+}
+.category_filter .filter_container .filter .filter_title {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+}
+.category_filter .filter_container .filter .filter_title p {
+  color: grey;
+}
+.category_filter .filter_container .filter .filter_category {
+  font-family: sans-serif;
+  line-height: 35px;
+  margin-bottom: 2rem;
+}
+.category_filter .filter_container .filter .filter_category h4 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.category_filter .filter_container .filter .filter_category h5 {
+  font-size: 15px;
+}
+.category_filter .filter_container .filter .filter_odeji {
+  font-family: sans-serif;
+  line-height: 35px;
+  margin-bottom: 2rem;
+}
+.category_filter .filter_container .filter .filter_odeji h5 {
+  font-size: 16px;
+}
+.category_filter .filter_container .filter .filter_odeji li {
+  color: rgb(184, 184, 184);
+}
+.category_filter .filter_container .filter .filter_brand {
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+}
+.category_filter .filter_container .filter .filter_brand .title {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 1rem;
+}
+.category_filter .filter_container .filter .filter_brand .orange {
+  color: orange;
+}
+.category_filter .filter_container .filter .filter_brand .list {
+  line-height: 35px;
+}
+.category_filter .filter_container .filter .filter_brand .list li input[type=checkbox] {
+  filter: sepia(100%) brightness(100%) hue-rotate(0deg) saturate(70%) contrast(300%);
+}
+.category_filter .filter_container .filter .filter_brand .show_more p {
+  color: orange;
+  cursor: pointer;
+}
+.category_filter .filter_container .filter .filter_brand .show_more p:hover {
+  color: rgb(211, 137, 0);
+}
+.category_filter .filter_container .filter .filter_size {
+  width: 360px;
+  height: 250px;
+}
+.category_filter .filter_container .filter .filter_size h4 {
+  font-family: sans-serif;
+  padding-bottom: 1rem;
 }

@@ -1,0 +1,110 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    // CSS link
+    link(rel="stylesheet" href="/css/main.css")
+    title Document
+  body
+    section.category_filter
+      .container.filter_container
+        .filter
+
+          .filter_links
+            a(href="#") Одежда и обувь 
+              span
+                img(src="/assets/logos/right.svg" alt="")
+            a(href="#") Мужчинам 
+              span
+                img(src="/assets/logos/right.svg" alt="")
+            a(href="#") Верхняя одежда
+          
+          .filter_title 
+            h2 Мужчинам
+            p 12 392 товаров
+          
+          .filter_category 
+            h4 Категория
+            ol.list 
+                li.list_item 
+                    h5 
+                        span 
+                            img(src="../../assets/logos/left.svg", alt="")
+                        |Одежда и обувь
+                    h5 
+                        span 
+                            img(src="../../assets/logos/left.svg", alt="")
+                        |Мужчинам
+          
+          .filter_odeji
+            h5 Верхняя одежда
+            ol.list 
+                li.list_item Рубашки
+                li.list_item Футболки
+                li.list_item Пальто
+                li.list_item Свитеры
+                li.list_item Толстовки
+                li.list_item Жилеты
+                li.list_item Майки
+                li.list_item Плащи
+                li.list_item Пуховики
+          
+          .filter_brand 
+            .title  
+                h4 Бренды
+                h4.orange Очистить
+            ol.list 
+                li 
+                    input(type="checkbox" checked)
+                    label(for="adidas") Adidas 
+                li 
+                    input(type="checkbox")
+                    label(for="puma") Puma 
+                li 
+                    input(type="checkbox")
+                    label(for="nike") Nike 
+                li 
+                    input(type="checkbox")
+                    label(for="lc-waikiki") LC Waikiki 
+                li 
+                    input(type="checkbox")
+                    label(for="koton") KOTON 
+            .show_more 
+                p Показать все
+
+          .filter_size 
+            h4 Размер
+            .btns 
+                button.size_btn 
+                    span.orange XS  
+                    span 4324
+                button.size_btn 
+                    span.orange S  
+                    span 4532
+                button.size_btn 
+                    span.orange M 
+                    span 1234
+                button.size_btn 
+                    span.orange L  
+                    span 352
+                button.size_btn 
+                    span.orange XL  
+                    span 123
+                button.size_btn 
+                    span.orange 2XL  
+                    span 234
+                button.size_btn 
+                    span.orange 3XL  
+                    span 52
+                button.size_btn 
+                    span.orange 48  
+                    span 53
+                button.size_btn 
+                    span.orange 50  
+                    span 0
+
+
+
+
+
