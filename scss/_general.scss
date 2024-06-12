@@ -6,6 +6,31 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 li{
+=======
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+ol,
+ul {
+>>>>>>> 5d7a61d5eb158896005bd6bc786733133d6aca8f
   list-style: none;
 }
