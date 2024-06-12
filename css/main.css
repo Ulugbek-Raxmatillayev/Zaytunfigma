@@ -169,6 +169,14 @@ aside img {
   color: rgb(211, 137, 0);
 }
 
-body {
-  background-color: red;
+.mini-nav {
+  display: flex;
+  gap: 20px;
+}
+.mini-nav h3 {
+  color: #FFAE00;
+}
+.mini-nav h3 span {
+  color: #DAE0E5;
+  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
