@@ -482,7 +482,7 @@ aside button:hover {
   display: flex;
   border: 1px solid #E8E9EA;
   border-radius: 5px;
-  padding: 20px;
+  padding: 0px;
 }
 .product .text__area .text__area__title {
   padding-bottom: 20px;
@@ -517,6 +517,7 @@ aside button:hover {
   display: flex;
   padding: 20px;
   gap: 10px;
+  font-size: 14px;
 }
 .product .text__area .product__mini__card .product__mini .product__mini__like {
   position: relative;
@@ -545,7 +546,7 @@ aside button:hover {
   font-family: Graphik LCG, Arial, sans-serif;
 }
 .product .text__area .product__mini__card .product__mini .product__mini__more p {
-  font-size: 16px;
+  font-size: 14px;
 }
 .product .text__area .product__mini__card .product__mini .product__mini__more span {
   font-size: 14px;

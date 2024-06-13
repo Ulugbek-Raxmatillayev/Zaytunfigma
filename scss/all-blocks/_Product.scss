@@ -194,7 +194,7 @@
         display: flex;
         border: 1px solid #E8E9EA;
         border-radius: 5px;
-        padding: 20px;
+        padding: 0px;
         .text__area__title{
             padding-bottom: 20px;
             .text__area__title__obshe{
@@ -229,6 +229,7 @@
             // flex-wrap: wrap;
             padding: 20px;
             gap: 10px;
+            font-size: 14px;
             .product__mini{
                 .product__mini__like{
                     position: relative;
@@ -256,7 +257,7 @@
                     gap: 5px;
                     font-family: Graphik LCG, Arial, sans-serif;
                     p{
-                        font-size: 16px;
+                        font-size: 14px;
                     }
                     span{
                         font-size: 14px;
