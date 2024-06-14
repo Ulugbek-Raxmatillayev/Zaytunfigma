@@ -27,20 +27,42 @@
         padding-bottom: 30px;
         font-size: 24px;
     }
-    
-    .otzitiv{
+
+    .otzitivs{
         display: flex;
-        gap: 20px;
-        .otzitiv__24{
-            font-size: 18px;
-            color: #8E969E;
+        justify-content: space-between;
+        .otzitiv{
+            display: flex;
+            gap: 20px;
+            .otzitiv__24{
+                font-size: 18px;
+                color: #8E969E;
+            }
+        
         }
     
+        .izbrine{
+            display: flex;
+            gap: 20px;
+            color: #FFAE00;
+            font-size: 12px;
+            align-items: center;
+            div{
+                display: flex;
+                gap: 5px;
+            }
+    
+        }
+
     }
 
     .otzitiv__hr{
-        border: 1px solid;
+        border: 1px solid #DAE0E5;
+        margin-top: 20px;
+        margin-bottom: 2rem;
     }
+    
+
     
     .product__info{
         display: flex;
@@ -198,7 +220,7 @@
         display: flex;
         border: 1px solid #E8E9EA;
         border-radius: 5px;
-        padding: 0px;
+        padding: 10px;
         .text__area__title{
             padding-bottom: 20px;
             .text__area__title__obshe{

@@ -21,8 +21,7 @@ h6 {
 }
 
 img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 a {
@@ -206,8 +205,7 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  -webkit-text-decoration: 2px underline dotted;
-          text-decoration: 2px underline dotted;
+  text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -336,13 +334,33 @@ aside button:hover {
   padding-bottom: 30px;
   font-size: 24px;
 }
-.product .otzitiv {
+.product .otzitivs {
+  display: flex;
+  justify-content: space-between;
+}
+.product .otzitivs .otzitiv {
   display: flex;
   gap: 20px;
 }
-.product .otzitiv .otzitiv__24 {
+.product .otzitivs .otzitiv .otzitiv__24 {
   font-size: 18px;
   color: #8E969E;
+}
+.product .otzitivs .izbrine {
+  display: flex;
+  gap: 20px;
+  color: #FFAE00;
+  font-size: 12px;
+  align-items: center;
+}
+.product .otzitivs .izbrine div {
+  display: flex;
+  gap: 5px;
+}
+.product .otzitiv__hr {
+  border: 1px solid #DAE0E5;
+  margin-top: 20px;
+  margin-bottom: 2rem;
 }
 .product .product__info {
   display: flex;
@@ -484,7 +502,7 @@ aside button:hover {
   display: flex;
   border: 1px solid #E8E9EA;
   border-radius: 5px;
-  padding: 0px;
+  padding: 10px;
 }
 .product .text__area .text__area__title {
   padding-bottom: 20px;
@@ -636,4 +654,6 @@ aside button:hover {
 
 .section-three {
   margin: 20px 0;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
