@@ -21,7 +21,8 @@ h6 {
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -205,7 +206,8 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  text-decoration: 2px underline dotted;
+  -webkit-text-decoration: 2px underline dotted;
+          text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -652,8 +654,42 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
-.section-three {
-  margin: 20px 0;
+.section-second .section-second__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.section-second .section-second__flex .p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.section-second .section-second__flex span {
+  color: #FFAE00;
+}
+.section-second .section-second__flex .section-second__flex__p {
+  color: #FFAE00;
+}
+.section-second div.section-second__flex-1 .section-second__cards {
+  display: grid;
+  row-gap: 7px;
+  width: 190px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__icon {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__img {
+  margin-bottom: 15px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__p {
+  font-size: 20px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__p span {
+  color: #8E969E;
+  font-size: 14px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.section-three {
+  margin: 20px 0;
+}/*# sourceMappingURL=main.css.map */
