@@ -80,6 +80,8 @@
 }
 
 .section-second{
+    margin-top: 50px;
+    margin-bottom: 15px;
     .section-second__flex{
         display: flex;
         justify-content: space-between;
@@ -96,6 +98,11 @@
         }
     }
     div.section-second__flex-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0;
+        gap: 10px;
         .section-second__cards {
             display: grid;
             row-gap: 7px;
@@ -103,10 +110,12 @@
             .cards__icon{
                 display: flex;
                 justify-content: end;
+                // padding: 0 30px;
                 cursor: pointer;
             }
             .cards__img{
                 margin-bottom: 15px;
+                cursor: pointer;
             }
             .cards__p{
                 font-size: 20px;

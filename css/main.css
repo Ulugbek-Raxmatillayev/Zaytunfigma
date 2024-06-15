@@ -81,12 +81,23 @@ button {
 }
 
 header {
+<<<<<<< HEAD
+=======
+  padding: 20px 0;
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 20px;
+<<<<<<< HEAD
   z-index: 100;
   background: white;
+=======
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background: #fff;
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
 }
 header .logo {
   color: rgb(255, 174, 0);
@@ -140,18 +151,18 @@ header .buttons {
 header .buttons .box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 header .buttons .box p {
   color: rgb(255, 174, 0);
+  font-size: 12px;
 }
 
 .header__menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
-  padding: 20px;
-  margin-top: 5%;
   font-size: large;
 }
 
@@ -678,6 +689,13 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
+<<<<<<< HEAD
+=======
+.section-second {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
 .section-second .section-second__flex {
   display: flex;
   justify-content: space-between;
@@ -693,6 +711,13 @@ aside button:hover {
 .section-second .section-second__flex .section-second__flex__p {
   color: #FFAE00;
 }
+.section-second div.section-second__flex-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  gap: 10px;
+}
 .section-second div.section-second__flex-1 .section-second__cards {
   display: grid;
   row-gap: 7px;
@@ -705,6 +730,7 @@ aside button:hover {
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__img {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__p {
   font-size: 20px;
@@ -716,6 +742,7 @@ aside button:hover {
 
 .section-three {
   margin: 20px 0;
+<<<<<<< HEAD
 }
 
 .address-filter {
@@ -865,3 +892,6 @@ aside button:hover {
     border-left: 1px solid orange;
   }
 }
+=======
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0

@@ -1,11 +1,24 @@
 header {
+<<<<<<< HEAD
     // padding: 20px;
+=======
+    padding: 20px 0;
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
     display: flex;
     justify-content: space-between;
     align-items: start;
     gap: 20px;
+<<<<<<< HEAD
     z-index: 100;
     background: white;
+=======
+    position: sticky;
+    z-index: 100;
+    // left: 5%;
+    top: 0;
+    background: #fff;
+
+>>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
     .logo {
         color: rgba(255, 174, 0, 1);
     }
@@ -69,10 +82,11 @@ header {
         .box {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
 
             p {
                 color: rgba(255, 174, 0, 1);
+                font-size: 12px;
             }
         }
     }
@@ -80,10 +94,11 @@ header {
 
 .header__menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
-    padding: 20px;
-    margin-top: 5%;
+    // padding: 20px;
+    // margin-top: 5%;
     font-size: large;
 }
 
