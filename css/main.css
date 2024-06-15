@@ -665,6 +665,10 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
+.section-second {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
 .section-second .section-second__flex {
   display: flex;
   justify-content: space-between;
@@ -690,15 +694,16 @@ aside button:hover {
 .section-second div.section-second__flex-1 .section-second__cards {
   display: grid;
   row-gap: 7px;
+  width: 190px;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__icon {
   display: flex;
   justify-content: end;
-  padding: 0 30px;
   cursor: pointer;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__img {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__p {
   font-size: 20px;
