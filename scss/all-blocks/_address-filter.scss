@@ -1,0 +1,113 @@
+.address-filter {
+    position: absolute;
+    left: 0;
+    .filter-container {
+        .filter-title {
+            padding-bottom: 2rem;
+
+            p {
+                color: grey;
+            }
+        }
+
+        .filter-list {
+            .list {
+                line-height: 45px;
+                padding: 1rem 0;
+                border-bottom: 1px solid rgb(212, 212, 212);
+                max-width: 330px;
+                margin-bottom: 1rem;
+            }
+
+            .notification-btn {
+                padding-bottom: 1rem;
+                border-bottom: 1px solid rgb(212, 212, 212);
+                max-width: 330px;
+                margin-bottom: 1rem;
+
+                button {
+                    width: 330px;
+                    padding: .5rem;
+                    justify-content: space-between;
+                    display: flex;
+                    border: none;
+                    align-items: center;
+                    background: transparent;
+
+                    .btn_ico-text {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+
+        .filter-list_2 {
+            .list {
+                a {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: .5s;
+                    margin-bottom: 1rem;
+                    padding: .1rem;
+                    gap: 20px;
+
+                    &:hover {
+                        color: orange;
+                        background: rgb(240, 240, 240);
+                    }
+
+                    .img {
+                        img {
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+
+                .active {
+                    color: orange;
+                    background: rgb(240, 240, 240);
+                }
+            }
+        }
+
+        .filter-end{
+            .list {
+                a {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: .5s;
+                    margin-bottom: 1rem;
+                    padding: .1rem;
+                    gap: 20px;
+
+                    &:hover {
+                        color: orange;
+                        background: rgb(240, 240, 240);
+                    }
+
+                    .img {
+                        img {
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
+
+    }
+}

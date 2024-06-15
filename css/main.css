@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -20,9 +21,23 @@ h6 {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  background: rgb(248, 246, 237);
+  border-radius: 20px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-button {
+  background: rgb(252, 197, 47);
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 20px;
+}
+
 img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 a {
@@ -37,6 +52,7 @@ li {
 .container {
   max-width: 1360px;
   margin: 0px auto;
+  padding: 10px 30px;
 }
 
 button {
@@ -65,14 +81,12 @@ button {
 }
 
 header {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 20px;
-  position: fixed;
   z-index: 100;
-  left: 6%;
+  background: white;
 }
 header .logo {
   color: rgb(255, 174, 0);
@@ -217,8 +231,7 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  -webkit-text-decoration: 2px underline dotted;
-          text-decoration: 2px underline dotted;
+  text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -665,11 +678,6 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
-<<<<<<< HEAD
-.section-three {
-  margin: 20px 0;
-}
-=======
 .section-second .section-second__flex {
   display: flex;
   justify-content: space-between;
@@ -708,5 +716,152 @@ aside button:hover {
 
 .section-three {
   margin: 20px 0;
-}/*# sourceMappingURL=main.css.map */
->>>>>>> 7095834726de4d66e532aa9138c16b0d40348c75
+}
+
+.address-filter {
+  position: absolute;
+  left: 0;
+}
+.address-filter .filter-container .filter-title {
+  padding-bottom: 2rem;
+}
+.address-filter .filter-container .filter-title p {
+  color: grey;
+}
+.address-filter .filter-container .filter-list .list {
+  line-height: 45px;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  max-width: 330px;
+  margin-bottom: 1rem;
+}
+.address-filter .filter-container .filter-list .notification-btn {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  max-width: 330px;
+  margin-bottom: 1rem;
+}
+.address-filter .filter-container .filter-list .notification-btn button {
+  width: 330px;
+  padding: 0.5rem;
+  justify-content: space-between;
+  display: flex;
+  border: none;
+  align-items: center;
+  background: transparent;
+}
+.address-filter .filter-container .filter-list .notification-btn button .btn_ico-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.address-filter .filter-container .filter-list_2 .list a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+  gap: 20px;
+}
+.address-filter .filter-container .filter-list_2 .list a:hover {
+  color: orange;
+  background: rgb(240, 240, 240);
+}
+.address-filter .filter-container .filter-list_2 .list a .img img {
+  display: flex;
+  align-items: center;
+}
+.address-filter .filter-container .filter-list_2 .list a span {
+  font-size: 14px;
+}
+.address-filter .filter-container .filter-list_2 .list .active {
+  color: orange;
+  background: rgb(240, 240, 240);
+}
+.address-filter .filter-container .filter-end .list a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+  gap: 20px;
+}
+.address-filter .filter-container .filter-end .list a:hover {
+  color: orange;
+  background: rgb(240, 240, 240);
+}
+.address-filter .filter-container .filter-end .list a .img img {
+  display: flex;
+  align-items: center;
+}
+.address-filter .filter-container .filter-end .list a span {
+  font-size: 14px;
+}
+
+.address_right {
+  position: absolute;
+  left: 30%;
+}
+.address_right .address-title h2 {
+  font-weight: 500;
+}
+.address_right .address_img {
+  position: absolute;
+  left: 250%;
+  top: 200px;
+}
+.address_right .address_img .text_center {
+  text-align: center;
+}
+.address_right .address_img .text_center h3,
+.address_right .address_img .text_center p,
+.address_right .address_img .text_center button {
+  margin-left: -3rem;
+  width: 200%;
+}
+.address_right .address_img .text_center h3 {
+  padding-bottom: 1rem;
+}
+.address_right .address_img .text_center button {
+  margin-top: 1rem;
+  background: orange;
+  border: none;
+  color: white;
+  padding: 1rem;
+  transition: 0.5s;
+}
+.address_right .address_img .text_center button:hover {
+  background: none;
+  animation: animate-border 3s infinite linear;
+  color: ORANGE;
+  box-shadow: 0px 0px 5px rgb(191, 237, 255);
+}
+
+@keyframes animate-border {
+  0% {
+    border-top: 1px solid rgb(206, 206, 206);
+    border-right: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+  }
+  50% {
+    border-top: 1px solid orange;
+    border-right: 1px solid rgb(206, 206, 206);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    border-left: 1px solid orange;
+  }
+  75% {
+    border-top: 1px solid rgb(245, 245, 245);
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid rgb(206, 206, 206);
+  }
+  100% {
+    border-top: 1px solid rgb(206, 206, 206);
+    border-right: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+  }
+}

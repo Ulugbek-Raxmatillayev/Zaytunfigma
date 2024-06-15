@@ -1,0 +1,79 @@
+.address_right {
+    position: absolute;
+    left: 30%;
+
+    .address-title {
+        h2 {
+            font-weight: 500;
+        }
+    }
+
+    .address_img {
+        position: absolute;
+        left: 250%;
+        top: 200px;
+
+        .text_center {
+            text-align: center;
+
+            h3,
+            p,
+            button {
+                margin-left: -3rem;
+                width: 200%;
+            }
+
+            h3 {
+                padding-bottom: 1rem;
+            }
+
+            button {
+                margin-top: 1rem;
+                background: orange;
+                border: none;
+                color: white;
+                padding: 1rem;
+                transition: .5s;
+
+                &:hover {
+
+                    background: none;
+                    animation: animate-border 3s infinite linear;
+                    color: ORANGE;
+                    box-shadow: 0px 0px 5px rgb(191, 237, 255);
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes animate-border {
+    0% {
+        border-top: 1px solid rgb(206, 206, 206);
+        border-right: 1px solid rgb(240, 240, 240);
+        border-bottom: 1px solid orange;
+        border-left: 1px solid orange;
+    }
+
+    50% {
+        border-top: 1px solid orange;
+        border-right: 1px solid rgb(206, 206, 206);
+        border-bottom: 1px solid rgb(240, 240, 240);
+        border-left: 1px solid orange;
+    }
+
+    75% {
+        border-top: 1px solid rgb(245, 245, 245);
+        border-right: 1px solid orange;
+        border-bottom: 1px solid orange;
+        border-left: 1px solid rgb(206, 206, 206);
+    }
+
+    100% {
+        border-top: 1px solid rgb(206, 206, 206);
+        border-right: 1px solid rgb(240, 240, 240);
+        border-bottom: 1px solid orange;
+        border-left: 1px solid orange;
+    }
+}

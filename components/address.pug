@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/./css/main.css")
+        title Document
+    body 
+
+        include ../components/header.pug
+
+        main 
+            section.address_page 
+               include ../components/address-filter.pug
+               .address_right 
+                    .address-title
+                         h2 Мои адреса
+                    .address_img 
+                        img(src="/./assets/logos/pin-xlg.svg", alt="img")
+                        .title.text_center
+                            h3 Нет ни одного адреса
+                            p Добавьте свои адреса, чтобы не тратить время на заказы
+                            button Добавить первый адрес
+        
