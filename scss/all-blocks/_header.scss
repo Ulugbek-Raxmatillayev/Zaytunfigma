@@ -71,10 +71,11 @@ header {
         .box {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
 
             p {
                 color: rgba(255, 174, 0, 1);
+                font-size: 12px;
             }
         }
     }

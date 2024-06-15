@@ -126,10 +126,11 @@ header .buttons {
 header .buttons .box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 header .buttons .box p {
   color: rgb(255, 174, 0);
+  font-size: 12px;
 }
 
 .header__menu {
