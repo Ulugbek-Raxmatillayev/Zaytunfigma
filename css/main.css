@@ -669,6 +669,9 @@ aside button:hover {
 .section-second .section-second__flex .section-second__flex__p {
   color: #FFAE00;
 }
+.section-second div.section-second__flex-1 {
+  margin: 30px 0;
+}
 .section-second div.section-second__flex-1 .section-second__cards {
   display: grid;
   row-gap: 7px;
