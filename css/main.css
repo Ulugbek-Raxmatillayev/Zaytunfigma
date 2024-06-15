@@ -35,7 +35,7 @@ li {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1360px;
   margin: 0px auto;
 }
 
@@ -67,9 +67,11 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 20px;
-  position: relative;
+  position: fixed;
+  z-index: 100;
+  left: 6%;
 }
 header .logo {
   color: rgb(255, 174, 0);
@@ -79,6 +81,7 @@ header .til {
   align-items: center;
   gap: 10px;
   font-size: 1rem;
+  padding: 10px;
 }
 header .til .hr2 {
   height: 20px;
@@ -111,6 +114,7 @@ header .search__input .input button {
 }
 header .search__input .input button:hover {
   background: rgb(255, 199, 77);
+  color: white;
 }
 header .buttons {
   display: flex;
@@ -132,17 +136,18 @@ header .buttons .box p {
   align-items: center;
   gap: 15px;
   padding: 20px;
+  margin-top: 5%;
+  font-size: large;
 }
 
 .btn {
-  display: none;
   margin-top: 10px;
-  width: 702px;
+  width: 670px;
   padding: 15px;
   border-radius: 4px;
   box-shadow: 0px 10px 30px 0px rgba(23, 31, 38, 0.3);
-  position: absolute;
-  margin-top: 60px;
+  display: none;
+  background-color: white;
 }
 .btn .box {
   display: flex;
@@ -164,6 +169,11 @@ header .buttons .box p {
 .btn li:hover {
   background: rgba(0, 102, 255, 0.1);
   cursor: pointer;
+}
+
+.header__active {
+  background-color: rgb(255, 199, 77) !important;
+  color: white !important;
 }
 
 aside {
