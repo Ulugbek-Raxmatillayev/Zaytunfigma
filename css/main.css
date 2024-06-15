@@ -81,23 +81,17 @@ button {
 }
 
 header {
-<<<<<<< HEAD
-=======
   padding: 20px 0;
->>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 20px;
-<<<<<<< HEAD
   z-index: 100;
   background: white;
-=======
   position: sticky;
   z-index: 100;
   top: 0;
   background: #fff;
->>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
 }
 header .logo {
   color: rgb(255, 174, 0);
@@ -689,13 +683,10 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
-<<<<<<< HEAD
-=======
 .section-second {
   margin-top: 50px;
   margin-bottom: 15px;
 }
->>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
 .section-second .section-second__flex {
   display: flex;
   justify-content: space-between;
@@ -742,7 +733,6 @@ aside button:hover {
 
 .section-three {
   margin: 20px 0;
-<<<<<<< HEAD
 }
 
 .address-filter {
@@ -892,6 +882,3 @@ aside button:hover {
     border-left: 1px solid orange;
   }
 }
-=======
-}/*# sourceMappingURL=main.css.map */
->>>>>>> b0184fe2a242dc63bc4257e6c7250bd9ef7ff1f0
