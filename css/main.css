@@ -21,7 +21,8 @@ h6 {
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -34,7 +35,7 @@ li {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1360px;
   margin: 0px auto;
 }
 
@@ -67,9 +68,11 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 20px;
-  position: relative;
+  position: fixed;
+  z-index: 100;
+  left: 6%;
 }
 header .logo {
   color: rgb(255, 174, 0);
@@ -79,6 +82,7 @@ header .til {
   align-items: center;
   gap: 10px;
   font-size: 1rem;
+  padding: 10px;
 }
 header .til .hr2 {
   height: 20px;
@@ -111,6 +115,7 @@ header .search__input .input button {
 }
 header .search__input .input button:hover {
   background: rgb(255, 199, 77);
+  color: white;
 }
 header .buttons {
   display: flex;
@@ -132,17 +137,18 @@ header .buttons .box p {
   align-items: center;
   gap: 15px;
   padding: 20px;
+  margin-top: 5%;
+  font-size: large;
 }
 
 .btn {
-  display: none;
   margin-top: 10px;
-  width: 702px;
+  width: 670px;
   padding: 15px;
   border-radius: 4px;
   box-shadow: 0px 10px 30px 0px rgba(23, 31, 38, 0.3);
-  position: absolute;
-  margin-top: 60px;
+  display: none;
+  background-color: white;
 }
 .btn .box {
   display: flex;
@@ -164,6 +170,11 @@ header .buttons .box p {
 .btn li:hover {
   background: rgba(0, 102, 255, 0.1);
   cursor: pointer;
+}
+
+.header__active {
+  background-color: rgb(255, 199, 77) !important;
+  color: white !important;
 }
 
 aside {
@@ -206,7 +217,8 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  text-decoration: 2px underline dotted;
+  -webkit-text-decoration: 2px underline dotted;
+          text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -653,6 +665,48 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
+<<<<<<< HEAD
 .section-three {
   margin: 20px 0;
 }
+=======
+.section-second .section-second__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.section-second .section-second__flex .p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.section-second .section-second__flex span {
+  color: #FFAE00;
+}
+.section-second .section-second__flex .section-second__flex__p {
+  color: #FFAE00;
+}
+.section-second div.section-second__flex-1 .section-second__cards {
+  display: grid;
+  row-gap: 7px;
+  width: 190px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__icon {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__img {
+  margin-bottom: 15px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__p {
+  font-size: 20px;
+}
+.section-second div.section-second__flex-1 .section-second__cards .cards__p span {
+  color: #8E969E;
+  font-size: 14px;
+}
+
+.section-three {
+  margin: 20px 0;
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> 7095834726de4d66e532aa9138c16b0d40348c75
