@@ -665,11 +665,6 @@ aside button:hover {
   border-color: #FFAE00;
 }
 
-<<<<<<< HEAD
-.section-three {
-  margin: 20px 0;
-}
-=======
 .section-second .section-second__flex {
   display: flex;
   justify-content: space-between;
@@ -686,16 +681,20 @@ aside button:hover {
   color: #FFAE00;
 }
 .section-second div.section-second__flex-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 30px 0;
+  gap: 10px;
 }
 .section-second div.section-second__flex-1 .section-second__cards {
   display: grid;
   row-gap: 7px;
-  width: 190px;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__icon {
   display: flex;
   justify-content: end;
+  padding: 0 30px;
   cursor: pointer;
 }
 .section-second div.section-second__flex-1 .section-second__cards .cards__img {
@@ -712,4 +711,3 @@ aside button:hover {
 .section-three {
   margin: 20px 0;
 }/*# sourceMappingURL=main.css.map */
->>>>>>> 7095834726de4d66e532aa9138c16b0d40348c75
