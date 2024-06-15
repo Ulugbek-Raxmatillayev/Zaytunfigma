@@ -1,12 +1,14 @@
 header {
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: start;
     gap: 20px;
-    position: fixed;
+    position: sticky;
     z-index: 100;
-    left: 6%;;
+    // left: 5%;
+    top: 0;
+    background: #fff;
 
     .logo {
         color: rgba(255, 174, 0, 1);
@@ -83,10 +85,11 @@ header {
 
 .header__menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
-    padding: 20px;
-    margin-top: 5%;
+    // padding: 20px;
+    // margin-top: 5%;
     font-size: large;
 }
 
