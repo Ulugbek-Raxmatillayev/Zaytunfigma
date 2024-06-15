@@ -1,28 +1,28 @@
 button {
     cursor: pointer;
 
-    .size_btn {
-        padding: 1rem;
-        background: transparent;
-        border: 1px solid rgb(184, 184, 184);
-        border-radius: 5px;
-        transition: .5s all;
+}
+.size_btn {
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    transition: .5s all;
 
-        &:hover {
-            border-color: orange;
-        }
+    &:hover {
+        border-color: orange;
+    }
 
-        &:focus {
-            border-color: orange;
-        }
+    &:focus {
+        border-color: orange;
+    }
 
-        .orange {
-            color: orange;
-            margin-right: 2rem;
-        }
+    .orange {
+        color: orange;
+        margin-right: 2rem;
+    }
 
-        span {
-            color: grey;
-        }
+    span {
+        color: grey;
     }
 }

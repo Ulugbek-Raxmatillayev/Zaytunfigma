@@ -41,24 +41,25 @@ li {
 button {
   cursor: pointer;
 }
-button .size_btn {
+
+.size_btn {
   padding: 1rem;
   background: transparent;
   border: 1px solid rgb(184, 184, 184);
   border-radius: 5px;
   transition: 0.5s all;
 }
-button .size_btn:hover {
+.size_btn:hover {
   border-color: orange;
 }
-button .size_btn:focus {
+.size_btn:focus {
   border-color: orange;
 }
-button .size_btn .orange {
+.size_btn .orange {
   color: orange;
   margin-right: 2rem;
 }
-button .size_btn span {
+.size_btn span {
   color: grey;
 }
 
@@ -655,5 +656,3 @@ aside button:hover {
 .section-three {
   margin: 20px 0;
 }
-
-/*# sourceMappingURL=main.css.map */
