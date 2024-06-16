@@ -11,5 +11,13 @@
 
  <img src="./assets/banner/main.png"> 
 
+ ---
+
+ ## ___This site is built on the basis of these technologies.___
+
+ [![My Skills](https://skillicons.dev/icons?i=html,css,js,pug,sass)](https://skillicons.dev)
+
+ 
+
 </div>
 
