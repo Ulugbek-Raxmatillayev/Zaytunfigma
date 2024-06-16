@@ -31,5 +31,18 @@ npm install pug-cli -g
 pug -w ./ -o ./html -P
 ```
 
+---
+
+## ___`Sass` command for the compiler.___
+### ___`Sass` install___
+```bash
+npm install -g sass
+```
+
+### ___`Sass` compiler___
+```bash
+sass --watch scss:css
+```
+
 </div>
 
