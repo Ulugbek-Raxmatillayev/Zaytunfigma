@@ -3,4 +3,13 @@
 <!-- sass scss/main.scss css/main.css --watch -->
 
 
-<img align="center" src="./assets/logo/Group 3 (1).svg">
+<div align="center">
+
+ <img src="./assets/logo/Group 3 (1).svg"> 
+
+ ---
+
+ <img src="./assets/banner/main.png"> 
+
+</div>
+
