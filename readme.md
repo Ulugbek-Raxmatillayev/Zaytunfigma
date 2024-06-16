@@ -17,7 +17,19 @@
 
  [![My Skills](https://skillicons.dev/icons?i=html,css,js,pug,sass)](https://skillicons.dev)
 
- 
+ ---
+
+ ## ___`Pug` command for the compiler.___
+
+ ### ___`Pug` install___
+```bash
+npm install pug-cli -g
+```
+
+### ___`Pug` compiler___
+```bash
+pug -w ./ -o ./html -P
+```
 
 </div>
 
