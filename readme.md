@@ -9,7 +9,7 @@
 
  ---
 
- # ___Through this website, you can buy various things that you like.___
+ ## ___Through this website, you can buy various things that you like.___
 
  <img src="./assets/banner/main.png"> 
 
