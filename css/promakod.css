@@ -1,0 +1,24 @@
+.homecontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homecontent .saidbar {
+  width: 20%;
+}
+.homecontent .saidbar li {
+  padding: 6px 9px;
+}
+.homecontent .saidbar .saidbarbox {
+  margin-top: 10%;
+}
+.homecontent .menu {
+  width: 67%;
+}
+.homecontent .mt {
+  margin-top: 10px;
+}
+
+.txleft {
+  text-align: left !important;
+}/*# sourceMappingURL=promakod.css.map */
