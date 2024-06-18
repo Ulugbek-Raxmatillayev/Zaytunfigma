@@ -1,0 +1,24 @@
+.sevimlilarx {
+    margin-top: 5%;
+}
+
+.minContainer {
+    max-width: 700px;
+    margin: 10% auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+
+    p {
+        margin: 10px 0px;
+    }
+
+    button {
+        padding: 8px 12px;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        box-shadow: 0px 10px 30px 0px rgba(23, 31, 38, 0.3);
+        background-color: rgba(255, 174, 0, 1);
+    }
+}

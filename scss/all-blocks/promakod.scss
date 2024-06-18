@@ -1,0 +1,24 @@
+.homecontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .saidbar {
+        width: 20%;
+
+        li{
+            padding: 6px 9px;
+        }
+
+        .saidbarbox{
+            margin-top: 10%;
+        }
+    }
+
+    .menu{
+        width: 67%;
+    }
+    .mt{
+        margin-top: 10px;
+    }
+}

@@ -37,7 +37,8 @@ h6 {
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -236,7 +237,8 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  text-decoration: 2px underline dotted;
+  -webkit-text-decoration: 2px underline dotted;
+          text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -882,5 +884,46 @@ aside button:hover {
     border-left: 1px solid orange;
   }
 }
+.sevimlilarx {
+  margin-top: 5%;
+}
 
-/*# sourceMappingURL=main.css.map */
+.minContainer {
+  max-width: 700px;
+  margin: 10% auto;
+  margin-bottom: 0px;
+  padding: 20px;
+  text-align: center;
+}
+.minContainer p {
+  margin: 10px 0px;
+}
+.minContainer button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  box-shadow: 0px 10px 30px 0px rgba(23, 31, 38, 0.3);
+  background-color: rgb(255, 174, 0);
+}
+
+.homecontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homecontent .saidbar {
+  width: 20%;
+}
+.homecontent .saidbar li {
+  padding: 6px 9px;
+}
+.homecontent .saidbar .saidbarbox {
+  margin-top: 10%;
+}
+.homecontent .menu {
+  width: 67%;
+}
+.homecontent .mt {
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
