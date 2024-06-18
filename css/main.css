@@ -46,10 +46,6 @@ a {
   color: inherit;
 }
 
-li {
-  list-style: none;
-}
-
 .container {
   max-width: 1360px;
   margin: 0px auto;
@@ -183,6 +179,7 @@ header .buttons .box p {
   cursor: pointer;
 }
 .btn li {
+  list-style: none;
   padding: 10px 5px;
   font-weight: 700;
   border-bottom: 2px solid #dcdcdc;
@@ -926,4 +923,11 @@ aside button:hover {
 }
 .homecontent .mt {
   margin-top: 10px;
+}
+
+.txleft {
+  text-align: left !important;
+}
+.txleft li {
+  list-style: block !important;
 }/*# sourceMappingURL=main.css.map */

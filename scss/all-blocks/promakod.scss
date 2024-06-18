@@ -1,4 +1,4 @@
-.homecontent{
+.homecontent {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,19 +6,28 @@
     .saidbar {
         width: 20%;
 
-        li{
+        li {
             padding: 6px 9px;
         }
 
-        .saidbarbox{
+        .saidbarbox {
             margin-top: 10%;
         }
     }
 
-    .menu{
+    .menu {
         width: 67%;
     }
-    .mt{
+
+    .mt {
         margin-top: 10px;
+    }
+}
+
+.txleft {
+    text-align: left !important;
+
+    li {
+
     }
 }
