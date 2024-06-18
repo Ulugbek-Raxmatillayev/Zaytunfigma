@@ -324,16 +324,16 @@ aside button:hover {
   color: rgb(211, 137, 0);
 }
 
-.mini-nav {
+.adpng {
+  transform: translateX(1080px) translateY(-280px);
+  position: relative;
+}
+
+.product-center .product-cardtime section .text__area .product__mini__card {
   display: flex;
-  gap: 20px;
-}
-.mini-nav h3 {
-  color: #FFAE00;
-}
-.mini-nav h3 span {
-  color: #DAE0E5;
-  margin-left: 10px;
+  gap: 80px;
+  padding-left: 120px;
+  padding-top: 50px;
 }
 
 .product {
@@ -881,6 +881,18 @@ aside button:hover {
     border-left: 1px solid orange;
   }
 }
+.adpng {
+  transform: translateX(1080px) translateY(-280px);
+  position: relative;
+}
+
+.product-center .product-cardtime section .text__area .product__mini__card {
+  display: flex;
+  gap: 80px;
+  padding-left: 120px;
+  padding-top: 50px;
+}
+
 .sevimlilarx {
   margin-top: 5%;
 }

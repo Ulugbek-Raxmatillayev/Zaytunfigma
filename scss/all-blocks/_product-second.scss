@@ -1,13 +1,20 @@
-.mini-nav {
-    display: flex;
-    gap: 20px;
+.adpng {
+    transform: translateX(1080px) translateY(-280px);
+    position: relative;
+}
 
-    h3 {
-        color: #FFAE00;
+.product-center {
+    .product-cardtime {
+        section {
+            .text__area {
+                .product__mini__card {
+                    display: flex;
+                    gap: 80px;
+                    padding-left: 120px;
+                    padding-top: 50px;
 
-        span {
-            color: #DAE0E5;
-            margin-left: 10px;
+                }
+            }
         }
     }
 }
