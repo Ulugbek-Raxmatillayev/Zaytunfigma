@@ -37,8 +37,7 @@ h6 {
 }
 
 img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 a {
@@ -234,8 +233,7 @@ aside button:hover {
   color: orange;
 }
 .category_filter .filter_container .filter .filter_links a:hover {
-  -webkit-text-decoration: 2px underline dotted;
-          text-decoration: 2px underline dotted;
+  text-decoration: 2px underline dotted;
 }
 .category_filter .filter_container .filter .filter_title {
   display: flex;
@@ -939,4 +937,10 @@ aside button:hover {
 
 .txleft {
   text-align: left !important;
-}/*# sourceMappingURL=main.css.map */
+}
+.reviews__empty .reviews__empty__moy {
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
