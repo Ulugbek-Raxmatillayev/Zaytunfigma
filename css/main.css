@@ -930,6 +930,7 @@ aside button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 350px;
+  height: -moz-max-content;
   height: max-content;
   background: #fff;
   padding: 25px 35px;

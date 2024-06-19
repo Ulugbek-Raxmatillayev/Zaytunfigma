@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/./css/main.css")
+        link(rel="shortcut icon", href="../../assets/logo/Group 3.svg", type="image/x-icon")
+        title Zaytun
+    body 
+
+        include ../components/header.pug
+
+        main 
+            section.address_page 
+               include ../components/address-filter.pug
+               .address_right 
+                    .address-title
+                         h2 Мои адреса
+                    .address_img 
+                        img(width="100px")(src="/./assets/logos/smile-sad.svg", alt="img")
+                        .title.text_center
+                            h3 Вы еще не жаловались
+                            p Так держать!
+                            button#openBtn Получить свою награду
+            
+            div.adres#adres 
+                div.adres__item
+                    div.adres__content 
+                        div.adres__content__p 
+                            p Добавить адрес
+                            span#close &times;
+                        input#text(type="text" placeholder="Название адреса")
+                        input#text1(type="text" placeholder="Адрес")
+                        input#text2(type="text" placeholder="Ориентир")
+                        button#adresBtn Сохранить
+        script(src="/js/header.js") 
+
+        
