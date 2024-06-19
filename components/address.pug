@@ -20,5 +20,16 @@ html(lang="en")
                         .title.text_center
                             h3 Нет ни одного адреса
                             p Добавьте свои адреса, чтобы не тратить время на заказы
-                            button Добавить первый адрес
+                            button#btn Добавить первый адрес
+            
+            div.adres 
+                div.adres__item
+                    div 
+                        p Добавить адрес
+                        span &times;
+                    input(type="text" placeholder="Название адреса")
+                    input(type="text" placeholder="Адрес")
+                    input(type="text" placeholder="Ориентир")
+                    button Сохранить
+
         
