@@ -327,15 +327,43 @@ aside button:hover {
 }
 
 .adpng {
-  transform: translateX(1080px) translateY(-280px);
+  transform: translateX(1080px) translateY(-680px);
   position: relative;
 }
 
-.product-center .product-cardtime section .text__area .product__mini__card {
+.product-center,
+.product-center2 {
+  padding-top: 30px;
+}
+.product-center .product-cardtime section .text__area .product__mini__card,
+.product-center2 .product-cardtime section .text__area .product__mini__card {
   display: flex;
   gap: 80px;
   padding-left: 120px;
   padding-top: 50px;
+}
+
+.thebanner {
+  position: absolute;
+  top: 1700px;
+  left: 120px;
+  width: 940px;
+}
+
+.product-center2 {
+  margin-top: -200px;
+}
+
+.center-info {
+  padding-left: 118px;
+  padding-top: 50px;
+}
+.center-info h2 {
+  font-weight: 500;
+}
+.center-info p {
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .product {
@@ -944,15 +972,43 @@ aside button:hover {
 }
 
 .adpng {
-  transform: translateX(1080px) translateY(-280px);
+  transform: translateX(1080px) translateY(-680px);
   position: relative;
 }
 
-.product-center .product-cardtime section .text__area .product__mini__card {
+.product-center,
+.product-center2 {
+  padding-top: 30px;
+}
+.product-center .product-cardtime section .text__area .product__mini__card,
+.product-center2 .product-cardtime section .text__area .product__mini__card {
   display: flex;
   gap: 80px;
   padding-left: 120px;
   padding-top: 50px;
+}
+
+.thebanner {
+  position: absolute;
+  top: 1700px;
+  left: 120px;
+  width: 940px;
+}
+
+.product-center2 {
+  margin-top: -200px;
+}
+
+.center-info {
+  padding-left: 118px;
+  padding-top: 50px;
+}
+.center-info h2 {
+  font-weight: 500;
+}
+.center-info p {
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .sevimlilarx {
