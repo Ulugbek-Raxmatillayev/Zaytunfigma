@@ -6,14 +6,29 @@ html(lang="en")
         title sevimlilar
         link(rel="stylesheet", href="./css/main.css")
     body 
-    include ./components/header.pug
-    main 
-        section.container
-            h1.sevimlilarx Избранное
+        include ./components/header.pug
+        
+        
 
-            .box.minContainer
-                img(src="./assets/sevimlilar/heart.png", alt="")
-                h1 В избранном еще нет товаров
-                p Добавляйте товары в избранное, чтобы не потерять
-                button.btnmax Добавить товары
-    script(src="/js/header.js")
+        // The Modal
+        #myModal.modal
+            // Modal content
+            .modal-content
+                span.close &times;
+                h3 Поздравляем!
+                p Скопируйте промокод и добавьте в свои промокоды
+                p Промокод на бесплатную экспресс доставку
+                div 
+                    p HK8324Y
+                    
+        main 
+            section.container
+                h1.sevimlilarx Избранное
+
+                .box.minContainer
+                    img(src="./assets/sevimli page/heart.png", alt="")
+                    h1 В избранном еще нет товаров
+                    p Добавляйте товары в избранное, чтобы не потерять
+                    button.btnmax#myBtn Добавить товары
+        script(src="/js/header.js")
+        script(src="/js/modal-md.js")

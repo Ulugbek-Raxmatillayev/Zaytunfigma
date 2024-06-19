@@ -13,7 +13,8 @@
   margin-top: 10%;
 }
 .homecontent .menu {
-  width: 67%;
+  width: 75%;
+  margin-right: auto;
 }
 .homecontent .mt {
   margin-top: 10px;
@@ -21,4 +22,39 @@
 
 .txleft {
   text-align: left !important;
+}
+.txleft .list li {
+  list-style: disc !important;
+  padding: 10px;
+  width: 870px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.posershka__title {
+  width: 800px;
+}
+
+.box {
+  margin-top: 3%;
+}
+.box p {
+  margin-top: 5%;
+  line-height: 28px;
+}
+
+.linehigh {
+  line-height: 28px;
+}
+
+.call_box {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+}
+.call_box .call__item {
+  background: rgb(242, 245, 247);
+  padding: 20px;
 }/*# sourceMappingURL=promakod.css.map */

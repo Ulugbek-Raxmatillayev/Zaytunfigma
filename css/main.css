@@ -21,6 +21,10 @@ h6 {
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 ::-webkit-scrollbar {
   background: rgb(248, 246, 237);
   border-radius: 20px;
@@ -1045,7 +1049,8 @@ aside button:hover {
   margin-top: 10%;
 }
 .homecontent .menu {
-  width: 67%;
+  width: 75%;
+  margin-right: auto;
 }
 .homecontent .mt {
   margin-top: 10px;
@@ -1054,6 +1059,99 @@ aside button:hover {
 .txleft {
   text-align: left !important;
 }
+.txleft .list li {
+  list-style: disc !important;
+  padding: 10px;
+  width: 870px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.posershka__title {
+  width: 800px;
+}
+
+.box {
+  margin-top: 3%;
+}
+.box p {
+  margin-top: 5%;
+  line-height: 28px;
+}
+
+.linehigh {
+  line-height: 28px;
+}
+
+.call_box {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+}
+.call_box .call__item {
+  background: rgb(242, 245, 247);
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+  height: 294px;
+}
+.modal-content h3 {
+  margin-bottom: 20px;
+}
+.modal-content p {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.modal-content div {
+  background: rgb(242, 245, 247);
+}
+.modal-content div p {
+  color: rgb(255, 174, 0);
+  padding: 7px 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .reviews__empty .reviews__empty__moy {
   justify-content: center;
   align-items: center;
