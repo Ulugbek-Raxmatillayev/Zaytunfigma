@@ -20,16 +20,18 @@ html(lang="en")
                         .title.text_center
                             h3 Нет ни одного адреса
                             p Добавьте свои адреса, чтобы не тратить время на заказы
-                            button#btn Добавить первый адрес
+                            button#openBtn Добавить первый адрес
             
-            div.adres 
+            div.adres#adres 
                 div.adres__item
-                    div 
-                        p Добавить адрес
-                        span &times;
-                    input(type="text" placeholder="Название адреса")
-                    input(type="text" placeholder="Адрес")
-                    input(type="text" placeholder="Ориентир")
-                    button Сохранить
+                    div.adres__content 
+                        div.adres__content__p 
+                            p Добавить адрес
+                            span#close &times;
+                        input#text(type="text" placeholder="Название адреса")
+                        input#text1(type="text" placeholder="Адрес")
+                        input#text2(type="text" placeholder="Ориентир")
+                        button#adresBtn Сохранить
+        script(src="../../js/script.js") 
 
         
