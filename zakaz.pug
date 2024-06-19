@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./css/main.css")
+    body 
+        include ./components/header.pug
+        .homecontent.container
+            .saidbar 
+                h1 Антон Павлов 
+                h5 Зарегистрирован: 12.07.2020
+
+                div.saidbarbox
+                    ul 
+                        li Мои заказы
+                        li Избранное
+                        li Корзина
+                        li Промокоды
+                        hr.mt
+                        li Уведомления
+                        hr.mt
+                        li Мои адреса
+                        li Мои отзывы
+                        li Мои жалобы
+                        li Настройки и безопасность
+                        hr.mt
+                        li Выйти
+            
+            .zakaz__page 
+                h3 Заказ
+                p Номер заказа
+                p 83429 
+                .zakas_grid.mt
+                    .grid__item 
+                        button Доставлен
+                        p Получение: Курьером, Дом
+                        p Дата заказа:16.07.2020
+                        p Тип оплаты: Онлайн
+                    .grid__item 
+                        h3 Доставка
+                        p г. Ташкент, Мирабадский р-н, ул. Тараса Шевченко 42
+                        h3.mt Получатель
+                        p Антон Павлов +998 90 *** ** 22
+                    .grid__item 
+                        h3 Наличными
+                        p При получении, курьеру
+                        div 
+                            h3 Товары (3)
+                            p 17 923 090 сум
+                        div 
+                            h3 Скидки
+                            p 17 923 090 сум
+                        div 
+                            h3 Бесплатно
+                            p за 24 часа
+                        hr
+                        h3 
+                        p 16 011 067 сум
+                .reklama
+                    .rak__box
+                        img(src="./assets/zakas/Group 32.png")
+                        .rak__text
+                            h3 Apple iPhone 11 8/128 GB, черный
+                            p Доставка за 36 часов
+                            p 9 000 000
+                            p 16 843 000 сум
+                    .rak__box
+                        img(src="./assets/zakas/Group 35.png")
+                        .rak__text
+                            h3 Apple iPhone 11 8/128 GB, черный
+                            p Доставка за 36 часов
+                            p 9 000 000
+                            p 16 843 000 сум
+                    .rak__box
+                        img(src="./assets/zakas/Mask Group.png")
+                        .rak__text
+                            h3 Apple iPhone 11 8/128 GB, черный
+                            p Доставка за 36 часов
+                            p 9 000 000
+                            p 16 843 000 сум
+                    p.mt.sariq Пожаловаться на заказ

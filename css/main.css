@@ -1036,7 +1036,7 @@ aside button:hover {
 
 .homecontent {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 .homecontent .saidbar {
@@ -1150,6 +1150,50 @@ body {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.zakas_grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+}
+.zakas_grid button {
+  background: rgb(39, 174, 96);
+  padding: 7px 10px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+.zakas_grid p,
+.zakas_grid h3 {
+  margin-top: 15px;
+}
+.zakas_grid .grid__item {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 20px;
+}
+.zakas_grid .grid__item div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reklama {
+  margin-top: 5%;
+}
+.reklama .rak__box {
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.reklama .sariq {
+  background: rgb(242, 61, 91);
 }
 
 .reviews__empty .reviews__empty__moy {

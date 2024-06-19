@@ -1,0 +1,47 @@
+.zakas_grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+
+    button {
+        background: rgba(39, 174, 96, 1);
+        padding: 7px 10px;
+        border: none;
+        border-radius: 7px;
+        color: white;
+    }
+
+    p,
+    h3 {
+        margin-top: 15px;
+    }
+
+    .grid__item {
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        padding: 20px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+.reklama{
+    margin-top: 5%;
+    .rak__box{
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        text-align: left;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .sariq{
+        color: rgba(242, 61, 91, 1);
+
+    }
+}
