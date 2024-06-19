@@ -83,10 +83,8 @@ header {
   justify-content: space-between;
   align-items: start;
   gap: 20px;
-  z-index: 100;
   background: white;
   position: sticky;
-  z-index: 100;
   top: 0;
   background: #fff;
 }
@@ -909,6 +907,65 @@ aside button:hover {
     border-left: 1px solid orange;
   }
 }
+.adres {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.adres .adres__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+.adres .adres__item .adres__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: max-content;
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 20px;
+  display: grid;
+  row-gap: 20px;
+}
+.adres .adres__item .adres__content input {
+  height: 45px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  outline-color: #FFAE00;
+}
+.adres .adres__item .adres__content button {
+  height: 45px;
+  padding: 10px 15px;
+  background-color: #FFAE00;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+}
+.adres .adres__item .adres__content .adres__content__p {
+  display: flex;
+  justify-content: end;
+  gap: 45px;
+}
+.adres .adres__item .adres__content .adres__content__p p {
+  font-size: 24px;
+  font-family: Arial;
+}
+.adres .adres__item .adres__content .adres__content__p span {
+  font-size: 25px;
+  color: #8E969E;
+  cursor: pointer;
+}
+
 .adpng {
   transform: translateX(1080px) translateY(-680px);
   position: relative;

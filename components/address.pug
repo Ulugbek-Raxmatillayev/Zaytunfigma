@@ -4,7 +4,8 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="/./css/main.css")
-        title Document
+        link(rel="shortcut icon", href="../../assets/logo/Group 3.svg", type="image/x-icon")
+        title Zaytun
     body 
 
         include ../components/header.pug
@@ -20,5 +21,18 @@ html(lang="en")
                         .title.text_center
                             h3 Нет ни одного адреса
                             p Добавьте свои адреса, чтобы не тратить время на заказы
-                            button Добавить первый адрес
+                            button#openBtn Добавить первый адрес
+            
+            div.adres#adres 
+                div.adres__item
+                    div.adres__content 
+                        div.adres__content__p 
+                            p Добавить адрес
+                            span#close &times;
+                        input#text(type="text" placeholder="Название адреса")
+                        input#text1(type="text" placeholder="Адрес")
+                        input#text2(type="text" placeholder="Ориентир")
+                        button#adresBtn Сохранить
+        script(src="../../js/script.js") 
+
         

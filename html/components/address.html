@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/./css/main.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../../assets/logo/Group 3.svg" type="image/x-icon">
+    <title>Zaytun</title>
   </head>
   <body> 
     <aside> 
@@ -156,11 +157,25 @@
             <div class="title text_center">
               <h3>Нет ни одного адреса</h3>
               <p>Добавьте свои адреса, чтобы не тратить время на заказы</p>
-              <button>Добавить первый адрес</button>
+              <button id="openBtn">Добавить первый адрес</button>
             </div>
           </div>
         </div>
       </section>
+      <div class="adres" id="adres"> 
+        <div class="adres__item">
+          <div class="adres__content"> 
+            <div class="adres__content__p"> 
+              <p>Добавить адрес</p><span id="close">&times;</span>
+            </div>
+            <input id="text" type="text" placeholder="Название адреса">
+            <input id="text1" type="text" placeholder="Адрес">
+            <input id="text2" type="text" placeholder="Ориентир">
+            <button id="adresBtn">Сохранить</button>
+          </div>
+        </div>
+      </div>
     </main>
+    <script src="../../js/script.js"> </script>
   </body>
 </html>
