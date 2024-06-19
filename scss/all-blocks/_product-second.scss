@@ -1,9 +1,12 @@
 .adpng {
-    transform: translateX(1080px) translateY(-280px);
+    transform: translateX(1080px) translateY(-680px);
     position: relative;
 }
 
-.product-center {
+.product-center,
+.product-center2 {
+    padding-top: 30px;
+
     .product-cardtime {
         section {
             .text__area {
@@ -16,5 +19,29 @@
                 }
             }
         }
+    }
+}
+
+.thebanner {
+    position: absolute;
+    top: 1700px;
+    left: 120px;
+    width: 940px;
+}
+
+.product-center2 {
+    margin-top: -200px;
+}
+
+.center-info {
+    padding-left: 118px;
+    padding-top: 50px;
+    h2 {
+        font-weight: 500;
+    }
+
+    p {
+        font-weight: 400;
+        line-height: 1.4;
     }
 }
