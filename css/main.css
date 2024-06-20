@@ -1201,10 +1201,34 @@ body {
   margin-left: 120px;
   margin-right: 120px;
 }
+.product__otzitv .product__otzitv__m {
+  background-color: #27AE60;
+  width: 60px;
+  height: 60px;
+  color: rgb(255, 249, 249);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.product__otzitv .product__otzitv__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .product__otzitv .product__otzitv__p {
   font-size: 16px;
   font-family: Arial, sans-serif;
   padding-top: 10px;
+}
+.product__otzitv .product__otzitv__img {
+  display: flex;
+  gap: 10px;
+}
+.product__otzitv .product__start {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=main.css.map */
