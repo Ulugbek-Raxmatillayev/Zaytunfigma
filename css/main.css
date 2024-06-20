@@ -1189,12 +1189,21 @@ body {
   margin-top: 20px;
 }
 .reklama .sariq {
-  background: rgb(242, 61, 91);
+  color: rgb(242, 61, 91);
 }
 
 .reviews__empty .reviews__empty__moy {
   justify-content: center;
   align-items: center;
+}
+
+.product__otzitv {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.product__otzitv .product__otzitv__p {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
