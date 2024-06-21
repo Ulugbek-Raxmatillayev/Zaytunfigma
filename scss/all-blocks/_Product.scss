@@ -137,6 +137,7 @@
             height: 236px;
             padding: 30px;
             color: #8E969E;
+
             .product__skidka__flex{
                 .product__skidka__foiz{
                     background-color: #F23D5B;
@@ -152,7 +153,12 @@
                 display: flex;
             }
         }
-    
+        
+        .product__korzinka:hover{
+            background-color: #FFFFFF;
+            border: 1px solid #FFAE00;
+            color: #FFAE00;
+        }
         .product__sum{
             font-size: 24px;
             margin-top: 15px;

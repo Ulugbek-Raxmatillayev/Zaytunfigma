@@ -498,6 +498,11 @@ aside button:hover {
   color: #8E969E;
   padding: 10px;
 }
+.product .product__info .product__korzinka:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFAE00;
+  color: #FFAE00;
+}
 .product .product__info .product__sum {
   font-size: 24px;
   margin-top: 15px;
