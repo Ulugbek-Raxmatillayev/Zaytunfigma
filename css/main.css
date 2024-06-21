@@ -367,6 +367,8 @@ aside button:hover {
 .product {
   margin-left: 120px;
   margin-right: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .product .product__nav {
   display: flex;
