@@ -257,6 +257,11 @@
             border: none;
             border-radius: 9px;
             }
+            button:hover{
+                background-color: #FFFFFF;
+                border: 1px solid #FFAE00;
+                color: #FFAE00;
+            }
         }
         .product__mini__card{
             display: flex;

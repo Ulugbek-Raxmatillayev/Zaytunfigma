@@ -597,6 +597,11 @@ aside button:hover {
   border: none;
   border-radius: 9px;
 }
+.product .text__area .text__area__title button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFAE00;
+  color: #FFAE00;
+}
 .product .text__area .product__mini__card {
   display: flex;
   padding: 20px;
